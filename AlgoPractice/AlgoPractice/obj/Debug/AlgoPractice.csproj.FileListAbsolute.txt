@@ -1,0 +1,31 @@
+c:\users\vamsi1858\documents\visual studio 2013\Projects\AlgoPractice\AlgoPractice\bin\Debug\AlgoPractice.exe.config
+c:\users\vamsi1858\documents\visual studio 2013\Projects\AlgoPractice\AlgoPractice\bin\Debug\Default.srprofile
+c:\users\vamsi1858\documents\visual studio 2013\Projects\AlgoPractice\AlgoPractice\bin\Debug\AlgoPractice.exe
+c:\users\vamsi1858\documents\visual studio 2013\Projects\AlgoPractice\AlgoPractice\bin\Debug\AlgoPractice.pdb
+c:\users\vamsi1858\documents\visual studio 2013\Projects\AlgoPractice\AlgoPractice\bin\Debug\SpecRun.SpecFlowPlugin.dll
+c:\users\vamsi1858\documents\visual studio 2013\Projects\AlgoPractice\AlgoPractice\bin\Debug\TechTalk.SpecFlow.dll
+c:\users\vamsi1858\documents\visual studio 2013\Projects\AlgoPractice\AlgoPractice\bin\Debug\TechTalk.SpecRun.dll
+c:\users\vamsi1858\documents\visual studio 2013\Projects\AlgoPractice\AlgoPractice\bin\Debug\SpecRun.SpecFlowPlugin.pdb
+c:\users\vamsi1858\documents\visual studio 2013\Projects\AlgoPractice\AlgoPractice\obj\Debug\AlgoPractice.exe
+c:\users\vamsi1858\documents\visual studio 2013\Projects\AlgoPractice\AlgoPractice\obj\Debug\AlgoPractice.pdb
+G:\AlgoPractice\AlgoPractice\bin\Debug\AlgoPractice.exe.config
+G:\AlgoPractice\AlgoPractice\obj\Debug\AlgoPractice.exe
+G:\AlgoPractice\AlgoPractice\obj\Debug\AlgoPractice.pdb
+G:\AlgoPractice\AlgoPractice\bin\Debug\Default.srprofile
+G:\AlgoPractice\AlgoPractice\bin\Debug\AlgoPractice.exe
+G:\AlgoPractice\AlgoPractice\bin\Debug\AlgoPractice.pdb
+G:\AlgoPractice\AlgoPractice\bin\Debug\SpecRun.SpecFlowPlugin.dll
+G:\AlgoPractice\AlgoPractice\bin\Debug\TechTalk.SpecFlow.dll
+G:\AlgoPractice\AlgoPractice\bin\Debug\TechTalk.SpecRun.dll
+G:\AlgoPractice\AlgoPractice\bin\Debug\SpecRun.SpecFlowPlugin.pdb
+G:\Vamsi\AlgoPractice\AlgoPractice\bin\Debug\AlgoPractice.exe.config
+G:\Vamsi\AlgoPractice\AlgoPractice\obj\Debug\AlgoPractice.exe
+G:\Vamsi\AlgoPractice\AlgoPractice\obj\Debug\AlgoPractice.pdb
+G:\Vamsi\AlgoPractice\AlgoPractice\bin\Debug\Default.srprofile
+G:\Vamsi\AlgoPractice\AlgoPractice\bin\Debug\AlgoPractice.exe
+G:\Vamsi\AlgoPractice\AlgoPractice\bin\Debug\AlgoPractice.pdb
+G:\Vamsi\AlgoPractice\AlgoPractice\bin\Debug\SpecRun.SpecFlowPlugin.dll
+G:\Vamsi\AlgoPractice\AlgoPractice\bin\Debug\TechTalk.SpecFlow.dll
+G:\Vamsi\AlgoPractice\AlgoPractice\bin\Debug\TechTalk.SpecRun.dll
+G:\Vamsi\AlgoPractice\AlgoPractice\bin\Debug\SpecRun.SpecFlowPlugin.pdb
+G:\Vamsi\AlgoPractice\AlgoPractice\obj\Debug\AlgoPractice.csprojResolveAssemblyReference.cache

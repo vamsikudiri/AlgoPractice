@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoPractice", "AlgoPractice\AlgoPractice.csproj", "{24C3A6B7-3D91-40BB-B682-B9CF267304F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestCases", "TestCases\TestCases.csproj", "{076ADD58-63F2-4E31-8CB5-426DCE1F67F6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{630E65EB-FBF1-4C1A-A171-7DF80B70F079}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24C3A6B7-3D91-40BB-B682-B9CF267304F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24C3A6B7-3D91-40BB-B682-B9CF267304F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24C3A6B7-3D91-40BB-B682-B9CF267304F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24C3A6B7-3D91-40BB-B682-B9CF267304F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076ADD58-63F2-4E31-8CB5-426DCE1F67F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076ADD58-63F2-4E31-8CB5-426DCE1F67F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076ADD58-63F2-4E31-8CB5-426DCE1F67F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076ADD58-63F2-4E31-8CB5-426DCE1F67F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
