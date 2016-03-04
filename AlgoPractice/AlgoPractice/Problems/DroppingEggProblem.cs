@@ -126,31 +126,53 @@ namespace AlgoPractice
         /// </summary>
         public void CalculateSolutionByBottomUp()
         {
-            map[0] = new Dictionary<int, int>();
-            map[1] = new Dictionary<int, int>();
+                map[0] = new Dictionary<int, int>();
+                map[1] = new Dictionary<int, int>();
 
-            for (int i = 0; i <= floors; i++)
-            {
-                map[0][i] = -1;
-                map[1][i] = i;
-            }
-
-            for (int i = 0; i <= eggs; i++)
-            {
-                if (!map.Keys.Contains(i))
+                for (int i = 0; i <= floors; i++)
                 {
-                    map[i] = new Dictionary<int, int>();
+                    map[0][i] = -1;
+                    map[1][i] = i;
                 }
-                map[i][0] = 0;
-            }
 
-            for (int i = 2; i < floors; i++)
-            {
-                for (int j = 1; j <= eggs; j++)
+                for (int i = 0; i <= eggs; i++)
                 {
-
+                    if (!map.Keys.Contains(i))
+                    {
+                        map[i] = new Dictionary<int, int>();
+                    }
+         
+                    map[i][1] = 1;
+                    map[i][0] = 0;
                 }
-            }
+
+
+                int calculatedMin;
+                int selectedPart;
+                for (int i = 2; i <= eggs; i++)
+                {
+                    calculatedMin = int.MaxValue;
+                    selectedPart = -1;//Solution not possible
+                    for (int j = 1; j <= floors; j++)
+                    {
+                        for (int k = 1; k < j; k++)
+                        {
+                            if (!(map[j - 1][k - 1] != 1 && map[j][j - k] != -1))
+                            {
+                                selectedPart = map[j - 1][k - 1] > map[j][j - k] ? map[j - 1][k - 1] : map[j][j - k];
+
+                                if (calculatedMin < selectedPart)
+                                {
+                                    calculatedMin = selectedPart;
+                                }
+                            }
+
+                        }
+                        map[j][i] = calculatedMin;
+                    }
+                }
+                //   map[eggs][floors] = 
+                solution = map[eggs][floors];
         }
 
         /// <summary>

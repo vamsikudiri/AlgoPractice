@@ -59,12 +59,18 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
-    <Compile Include="DroppingEggSteps.cs" />
-    <Compile Include="DroppingEgg.feature.cs">
+    <Compile Include="FeaturesAndSteps\DroppingEggSteps.cs" />
+    <Compile Include="FeaturesAndSteps\DroppingEgg.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DroppingEgg.feature</DependentUpon>
     </Compile>
+    <Compile Include="FeaturesAndSteps\LongestCommonSubString.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LongestCommonSubString.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturesAndSteps\LongestCommonSubStringSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -72,9 +78,13 @@
     <None Include="Default.srprofile">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="FeaturesAndSteps\LongestCommonSubString.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>LongestCommonSubString.feature.cs</LastGenOutput>
+    </None>
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
-    <None Include="DroppingEgg.feature">
+    <None Include="FeaturesAndSteps\DroppingEgg.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>DroppingEgg.feature.cs</LastGenOutput>
     </None>

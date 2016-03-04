@@ -8,23 +8,31 @@ using TechTalk.SpecFlow;
 namespace TestCases
 {
     [Binding]
-    public class DroppingEggSteps
+    class DroppingEggSteps
     {
+        #region Fields
 
         static List<DroppingEggProblem> eggProblems = new List<DroppingEggProblem>();
-        static AlgorithemType selectedAlgorithemType;
-        static VoidMethod calculateMethod;
+        protected static AlgorithemType selectedAlgorithemType;
+        protected static VoidMethod calculateMethod;
 
+        #endregion Fields
+
+
+        /// <summary>
+        /// Before the scenario.
+        /// </summary>
         [BeforeScenario]
-        public static void BeforeChromeScenario()
+        public static void BeforeScenario()
         {
             string[] tags = ScenarioContext.Current.ScenarioInfo.Tags;
             if (tags.Length > 0)
             {
-                 selectedAlgorithemType = (AlgorithemType)Enum.Parse(typeof(AlgorithemType), tags[0]);
+                selectedAlgorithemType = (AlgorithemType)Enum.Parse(typeof(AlgorithemType), tags[0]);
             }
             eggProblems.Clear();
         }
+
 
         [Given(@"(.*), (.*) floors")]
         public void GivenFloors(int eggCount, string list)

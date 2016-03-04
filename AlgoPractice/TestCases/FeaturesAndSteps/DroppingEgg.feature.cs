@@ -10,14 +10,14 @@
 // ------------------------------------------------------------------------------
 #region Designer generated code
 #pragma warning disable
-namespace TestCases
+namespace TestCases.FeaturesAndSteps
 {
     using TechTalk.SpecFlow;
     
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("Dropping Egg", Description="\tNumber of eggs and number of floors are given.", SourceFile="DroppingEgg.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("Dropping Egg", Description="\tNumber of eggs and number of floors are given.", SourceFile="FeaturesAndSteps\\DroppingEgg.feature", SourceLine=0)]
     public partial class DroppingEggFeature
     {
         
