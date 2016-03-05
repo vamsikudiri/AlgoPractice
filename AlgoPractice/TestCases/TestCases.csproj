@@ -65,6 +65,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DroppingEgg.feature</DependentUpon>
     </Compile>
+    <Compile Include="FeaturesAndSteps\LongestCommonSubSequence.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LongestCommonSubSequence.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturesAndSteps\LongestCommonSubSequenceSteps.cs" />
     <Compile Include="FeaturesAndSteps\LongestCommonSubString.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -77,6 +83,10 @@
     <None Include="App.config" />
     <None Include="Default.srprofile">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="FeaturesAndSteps\LongestCommonSubSequence.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>LongestCommonSubSequence.feature.cs</LastGenOutput>
     </None>
     <None Include="FeaturesAndSteps\LongestCommonSubString.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
