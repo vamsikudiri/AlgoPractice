@@ -77,6 +77,12 @@
       <DependentUpon>LongestCommonSubString.feature</DependentUpon>
     </Compile>
     <Compile Include="FeaturesAndSteps\LongestCommonSubStringSteps.cs" />
+    <Compile Include="FeaturesAndSteps\PallondromPartitioning.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PallondromPartitioning.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturesAndSteps\PallondromPartitioningSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -91,6 +97,10 @@
     <None Include="FeaturesAndSteps\LongestCommonSubString.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>LongestCommonSubString.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeaturesAndSteps\PallondromPartitioning.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>PallondromPartitioning.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
     <None Include="runtests.cmd" />

@@ -62,6 +62,7 @@
     <Compile Include="Helpers\StringToList.cs" />
     <Compile Include="Problems\LongestCommonSubSequence.cs" />
     <Compile Include="Problems\LongestCommonSubString.cs" />
+    <Compile Include="Problems\PallondromPartitioning.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
