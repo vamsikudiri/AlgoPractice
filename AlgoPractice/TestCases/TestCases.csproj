@@ -59,6 +59,12 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="FeaturesAndSteps\DoublyString.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DoublyString.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturesAndSteps\DoublyStringSteps.cs" />
     <Compile Include="FeaturesAndSteps\DroppingEggSteps.cs" />
     <Compile Include="FeaturesAndSteps\DroppingEgg.feature.cs">
       <AutoGen>True</AutoGen>
@@ -89,6 +95,10 @@
     <None Include="App.config" />
     <None Include="Default.srprofile">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="FeaturesAndSteps\DoublyString.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>DoublyString.feature.cs</LastGenOutput>
     </None>
     <None Include="FeaturesAndSteps\LongestCommonSubSequence.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

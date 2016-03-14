@@ -30,6 +30,11 @@ namespace AlgoPractice
         /// The dynamic programming top down
         /// </summary>
         DynamicProgrammingTopDown,
+
+        /// <summary>
+        /// The normal
+        /// </summary>
+        NormalSolution,
     }
 
     /// <summary>
@@ -54,6 +59,13 @@ namespace AlgoPractice
                     if (DpTopDown != null)
                     {
                         result = DpTopDown.CalculateSolutionByTopDown;
+                    }
+                    break;
+                case AlgorithemType.NormalSolution:
+                    INormalSolution normalSolution = problem as INormalSolution;
+                    if (normalSolution != null)
+                    {
+                        result = normalSolution.CalculateSolution;
                     }
                     break;
                 default:

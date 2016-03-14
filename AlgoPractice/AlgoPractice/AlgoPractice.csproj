@@ -58,6 +58,8 @@
     <Compile Include="DataTypes\Node.cs" />
     <Compile Include="BaseClasses\Problem.cs" />
     <Compile Include="Interfaces\IDynamicProgrammingTopDown.cs" />
+    <Compile Include="Interfaces\INormalSolution.cs" />
+    <Compile Include="Problems\DoublyString.cs" />
     <Compile Include="Problems\DroppingEggProblem.cs" />
     <Compile Include="Helpers\StringToList.cs" />
     <Compile Include="Problems\LongestCommonSubSequence.cs" />
