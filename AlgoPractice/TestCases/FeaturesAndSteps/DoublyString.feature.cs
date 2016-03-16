@@ -17,7 +17,7 @@ namespace TestCases.FeaturesAndSteps
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "2.0.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("DoublyString", Description="\tNumber of eggs and number of floors are given.", SourceFile="FeaturesAndSteps\\DoublyString.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("DoublyString", SourceFile="FeaturesAndSteps\\DoublyString.feature", SourceLine=0)]
     public partial class DoublyStringFeature
     {
         
@@ -30,7 +30,7 @@ namespace TestCases.FeaturesAndSteps
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner(null, 0);
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "DoublyString", "\tNumber of eggs and number of floors are given.", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "DoublyString", null, ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -70,18 +70,18 @@ namespace TestCases.FeaturesAndSteps
                 @__tags = System.Linq.Enumerable.ToArray(System.Linq.Enumerable.Concat(@__tags, exampleTags));
             }
             TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("DoublyString test cases", @__tags);
-#line 5
+#line 4
 this.ScenarioSetup(scenarioInfo);
-#line 6
+#line 5
  testRunner.Given(string.Format("DoublyString input {0}", @string), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
-#line 7
+#line 6
  testRunner.Then(string.Format("DoublyString result should be {0}", isDoublyString), ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 0", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant0()
         {
             this.DoublyStringTestCases("a", "false", ((string[])(null)));
@@ -89,7 +89,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 1", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant1()
         {
             this.DoublyStringTestCases("aa", "true", ((string[])(null)));
@@ -97,7 +97,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 2", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant2()
         {
             this.DoublyStringTestCases("abcabc", "true", ((string[])(null)));
@@ -105,7 +105,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 3", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant3()
         {
             this.DoublyStringTestCases("abcdabcd", "true", ((string[])(null)));
@@ -113,7 +113,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 4", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant4()
         {
             this.DoublyStringTestCases("Xabcdabcd", "true", ((string[])(null)));
@@ -121,7 +121,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 5", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant5()
         {
             this.DoublyStringTestCases("aXbcdabcd", "true", ((string[])(null)));
@@ -129,7 +129,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 6", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant6()
         {
             this.DoublyStringTestCases("abXcdabcd", "true", ((string[])(null)));
@@ -137,7 +137,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 7", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant7()
         {
             this.DoublyStringTestCases("abcXdabcd", "true", ((string[])(null)));
@@ -145,7 +145,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 8", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant8()
         {
             this.DoublyStringTestCases("abcdXabcd", "true", ((string[])(null)));
@@ -153,7 +153,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 9", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant9()
         {
             this.DoublyStringTestCases("abcdaXbcd", "true", ((string[])(null)));
@@ -161,7 +161,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 10", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant10()
         {
             this.DoublyStringTestCases("abcdabXcd", "true", ((string[])(null)));
@@ -169,7 +169,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 11", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant11()
         {
             this.DoublyStringTestCases("abcdabcXd", "true", ((string[])(null)));
@@ -177,7 +177,7 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 12", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant12()
         {
             this.DoublyStringTestCases("XabcXdabcd", "false", ((string[])(null)));
@@ -185,122 +185,138 @@ this.ScenarioSetup(scenarioInfo);
         }
         
         [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 13", new string[] {
-                "NormalSolution"}, SourceLine=10)]
+                "NormalSolution"}, SourceLine=9)]
         public virtual void DoublyStringTestCases_Variant13()
+        {
+            this.DoublyStringTestCases("abcdabcdX", "true", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 14", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant14()
         {
             this.DoublyStringTestCases("aXbcdXabcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 14", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant14()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 15", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant15()
         {
             this.DoublyStringTestCases("abXcdaXbcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 15", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant15()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 16", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant16()
         {
             this.DoublyStringTestCases("abcXXdabcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 16", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant16()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 17", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant17()
         {
             this.DoublyStringTestCases("abcdXaXbcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 17", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant17()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 18", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant18()
         {
             this.DoublyStringTestCases("abXcdaXbcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 18", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant18()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 19", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant19()
         {
             this.DoublyStringTestCases("abcXdabXcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 19", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant19()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 20", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant20()
         {
             this.DoublyStringTestCases("abcXdabcXd", "true", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 20", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant20()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 21", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant21()
         {
             this.DoublyStringTestCases("XabcXdabcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 21", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant21()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 22", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant22()
         {
             this.DoublyStringTestCases("aXbcdXabYcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 22", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant22()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 23", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant23()
         {
             this.DoublyStringTestCases("abXcYdaXbcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 23", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant23()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 24", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant24()
         {
             this.DoublyStringTestCases("abcXXdabYcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 24", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant24()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 25", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant25()
         {
             this.DoublyStringTestCases("abYcdXaXbcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 25", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant25()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 26", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant26()
         {
             this.DoublyStringTestCases("abXYcdaXbcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 26", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant26()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 27", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant27()
         {
             this.DoublyStringTestCases("abcXdaYbXcd", "false", ((string[])(null)));
 #line hidden
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 27", new string[] {
-                "NormalSolution"}, SourceLine=10)]
-        public virtual void DoublyStringTestCases_Variant27()
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 28", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant28()
         {
             this.DoublyStringTestCases("aYbcXdabcXd", "true", ((string[])(null)));
+#line hidden
+        }
+        
+        [TechTalk.SpecRun.ScenarioAttribute("DoublyString test cases, Variant 29", new string[] {
+                "NormalSolution"}, SourceLine=9)]
+        public virtual void DoublyStringTestCases_Variant29()
+        {
+            this.DoublyStringTestCases("abcdefghikjlmnopqustuvwxyz", "false", ((string[])(null)));
 #line hidden
         }
         

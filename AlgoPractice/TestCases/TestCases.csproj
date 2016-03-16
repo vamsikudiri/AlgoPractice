@@ -71,6 +71,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DroppingEgg.feature</DependentUpon>
     </Compile>
+    <Compile Include="FeaturesAndSteps\EditDistance.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>EditDistance.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturesAndSteps\EditDistanceSteps.cs" />
     <Compile Include="FeaturesAndSteps\LongestCommonSubSequence.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -99,6 +105,10 @@
     <None Include="FeaturesAndSteps\DoublyString.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>DoublyString.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeaturesAndSteps\EditDistance.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>EditDistance.feature.cs</LastGenOutput>
     </None>
     <None Include="FeaturesAndSteps\LongestCommonSubSequence.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
