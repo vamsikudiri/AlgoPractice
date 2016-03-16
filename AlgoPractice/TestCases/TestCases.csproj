@@ -101,6 +101,12 @@
       <DependentUpon>PallondromPartitioning.feature</DependentUpon>
     </Compile>
     <Compile Include="FeaturesAndSteps\PallondromPartitioningSteps.cs" />
+    <Compile Include="FeaturesAndSteps\PartitionProblem.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>PartitionProblem.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturesAndSteps\PartitionProblemSteps.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -131,6 +137,10 @@
     <None Include="FeaturesAndSteps\PallondromPartitioning.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>PallondromPartitioning.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeaturesAndSteps\PartitionProblem.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>PartitionProblem.feature.cs</LastGenOutput>
     </None>
     <None Include="packages.config" />
     <None Include="runtests.cmd" />
