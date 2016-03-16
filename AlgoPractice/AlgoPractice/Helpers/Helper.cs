@@ -36,7 +36,7 @@ namespace AlgoPractice
         /// <param name="type">The type.</param>
         /// <param name="stringInput">The string input.</param>
         /// <returns></returns>
-        public static T ConvertFromString<T>(string stringInput)
+        public static T ConvertFromString<T>(this string stringInput)
         {
             T result = default(T);
 
@@ -47,6 +47,29 @@ namespace AlgoPractice
                 result = (T)typeConverter.ConvertFromString(stringInput);
             }
 
+            return result;
+        }
+
+        /// <summary>
+        /// Coverts to array.
+        /// </summary>
+        /// <typeparam name="T"></typeparam>
+        /// <param name="inputString">The input string.</param>
+        /// <param name="rows">The rows.</param>
+        /// <param name="columns">The columns.</param>
+        /// <returns></returns>
+        public static T[,] CovertToArray<T>(this string inputString, int rows,int columns)
+        {
+            T[,] result = new T[rows,columns];
+
+            List<T> listOfelements = Convert<T>(inputString);
+            for(int i=0;i<rows;i++)
+            {
+                for(int j=0;j<columns;j++)
+                {
+                    result[i,j]= listOfelements[i*rows+j];
+                }
+            }
             return result;
         }
     }

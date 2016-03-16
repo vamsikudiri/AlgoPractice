@@ -89,6 +89,12 @@
       <DependentUpon>LongestCommonSubString.feature</DependentUpon>
     </Compile>
     <Compile Include="FeaturesAndSteps\LongestCommonSubStringSteps.cs" />
+    <Compile Include="FeaturesAndSteps\MinCostPath.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MinCostPath.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturesAndSteps\MinCostPathSteps.cs" />
     <Compile Include="FeaturesAndSteps\PallondromPartitioning.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -117,6 +123,10 @@
     <None Include="FeaturesAndSteps\LongestCommonSubString.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>LongestCommonSubString.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeaturesAndSteps\MinCostPath.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MinCostPath.feature.cs</LastGenOutput>
     </None>
     <None Include="FeaturesAndSteps\PallondromPartitioning.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
