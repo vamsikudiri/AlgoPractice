@@ -95,6 +95,12 @@
       <DependentUpon>MinCostPath.feature</DependentUpon>
     </Compile>
     <Compile Include="FeaturesAndSteps\MinCostPathSteps.cs" />
+    <Compile Include="FeaturesAndSteps\MinimumNumberOfJumps.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>MinimumNumberOfJumps.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturesAndSteps\MinimumNumberOfJumpsSteps.cs" />
     <Compile Include="FeaturesAndSteps\PallondromPartitioning.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -133,6 +139,10 @@
     <None Include="FeaturesAndSteps\MinCostPath.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>MinCostPath.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeaturesAndSteps\MinimumNumberOfJumps.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>MinimumNumberOfJumps.feature.cs</LastGenOutput>
     </None>
     <None Include="FeaturesAndSteps\PallondromPartitioning.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
