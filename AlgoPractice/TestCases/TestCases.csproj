@@ -89,6 +89,12 @@
       <DependentUpon>LongestCommonSubString.feature</DependentUpon>
     </Compile>
     <Compile Include="FeaturesAndSteps\LongestCommonSubStringSteps.cs" />
+    <Compile Include="FeaturesAndSteps\LongestIncreasingSequence.feature.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>LongestIncreasingSequence.feature</DependentUpon>
+    </Compile>
+    <Compile Include="FeaturesAndSteps\LongestIncreasingSequenceSteps.cs" />
     <Compile Include="FeaturesAndSteps\MinCostPath.feature.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -135,6 +141,10 @@
     <None Include="FeaturesAndSteps\LongestCommonSubString.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>
       <LastGenOutput>LongestCommonSubString.feature.cs</LastGenOutput>
+    </None>
+    <None Include="FeaturesAndSteps\LongestIncreasingSequence.feature">
+      <Generator>SpecFlowSingleFileGenerator</Generator>
+      <LastGenOutput>LongestIncreasingSequence.feature.cs</LastGenOutput>
     </None>
     <None Include="FeaturesAndSteps\MinCostPath.feature">
       <Generator>SpecFlowSingleFileGenerator</Generator>

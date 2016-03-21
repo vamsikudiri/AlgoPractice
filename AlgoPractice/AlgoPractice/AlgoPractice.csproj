@@ -59,12 +59,14 @@
     <Compile Include="BaseClasses\Problem.cs" />
     <Compile Include="Interfaces\IDynamicProgrammingTopDown.cs" />
     <Compile Include="Interfaces\INormalSolution.cs" />
+    <Compile Include="Interfaces\ISimpleRecursive.cs" />
     <Compile Include="Problems\EditDistance.cs" />
     <Compile Include="Problems\DoublyString.cs" />
     <Compile Include="Problems\DroppingEggProblem.cs" />
     <Compile Include="Helpers\Helper.cs" />
     <Compile Include="Problems\LongestCommonSubSequence.cs" />
     <Compile Include="Problems\LongestCommonSubString.cs" />
+    <Compile Include="Problems\LongestIncreasingSequence.cs" />
     <Compile Include="Problems\MinCostPath.cs" />
     <Compile Include="Problems\MinimumNumberOfJumps.cs" />
     <Compile Include="Problems\PallondromPartitioning.cs" />

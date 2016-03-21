@@ -22,6 +22,11 @@ namespace AlgoPractice
         Unknown,
 
         /// <summary>
+        /// The simple recursive
+        /// </summary>
+        SimpleRecursive,
+
+        /// <summary>
         /// The dynamic programming bottom up
         /// </summary>
         DynamicProgrammingBottomUp,
@@ -66,6 +71,13 @@ namespace AlgoPractice
                     if (normalSolution != null)
                     {
                         result = normalSolution.CalculateSolution;
+                    }
+                    break;
+                case AlgorithemType.SimpleRecursive:
+                    ISimpleRecursive simpleRecursive = problem as ISimpleRecursive;
+                    if (simpleRecursive != null)
+                    {
+                        result = simpleRecursive.CalculateSolutionBySimpleRecursive;
                     }
                     break;
                 default:
